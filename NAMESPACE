@@ -1,0 +1,6 @@
+useDynLib(ocean)
+
+import(ncdf, proj4)
+export(att.plot, bathy.colors, calculate.element.size, filter2d,
+       find.elem, is.in.grid, jet.colors, lagrangian.pdd, att.plot,
+       spaghetti)
